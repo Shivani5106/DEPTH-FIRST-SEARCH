@@ -72,22 +72,6 @@ Now, Queue becomes empty, So, terminate these process of iteration.
 ```py
 from collections import deque
 from collections import defaultdict
-'''
-Input format:
-V E
-U V for each edge
-Example:
-7 9
-A B
-A C
-A F
-C E
-C F
-C D
-D E
-D G
-G F
-'''
 def bfs(graph, start, visited, path):
     queue = deque()
     path.append(start)
@@ -116,53 +100,10 @@ visited = defaultdict(bool)
 traversedpath = bfs(graph, start, visited, path)
 print("BFS Traversal Path:", traversedpath)
 ```
-
-<hr>
-<h3>Sample Input</h3>
-<hr>
-7 9 <BR>
-A B <BR>
-A C <BR>
-A F <BR>
-C E <BR>
-C F <BR>
-C D <BR>
-D E <BR>
-D G <BR>
-G F <BR>
-<hr>
-<h3>Sample Output</h3>
-<hr>
-['A', 'B', 'C', 'F', 'E', 'D', 'G']
-<br>
-
+<h3>OUTPUT:</h3>
 
 <img width="696" height="471" alt="image" src="https://github.com/user-attachments/assets/10b02d7d-b4c2-4231-806e-e76cce3a0bca" />
 
-<hr>
-
-<hr>
-<h3>Sample Input</h3>
-<hr>
-5 6 <BR>
-0 1 <BR>
-0 2 <BR>
-1 2 <BR>
-1 3 <BR>
-2 4 <BR>
-3 4 <BR>
-<hr>
-<h3>Sample Output</h3>
-<hr>
-['0', '1', '2', '3', '4']
-
-<br>
-
-
-
-<img width="559" height="462" alt="image" src="https://github.com/user-attachments/assets/4179fb22-c28b-4de2-92d4-49f5cd754e31" />
-
-<hr>
 <h3>Result:</h3>
 <hr>
 <p>Thus,a Graph was constructed and implementation of Breadth First Search for the same graph was done successfully.</p>
