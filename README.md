@@ -100,8 +100,8 @@ visited = defaultdict(bool)
 traversedpath = bfs(graph, start, visited, path)
 print("BFS Traversal Path:", traversedpath)
 ```
-<h3>OUTPUT:</h3>
 
+<h3>OUTPUT:</h3>
 <img width="696" height="471" alt="image" src="https://github.com/user-attachments/assets/10b02d7d-b4c2-4231-806e-e76cce3a0bca" />
 
 <h3>Result:</h3>
